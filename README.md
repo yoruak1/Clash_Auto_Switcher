@@ -52,7 +52,7 @@ python clash_auto_switcher.py -a your_external-controller -s your_secret -i 60
 
 <img src=".\demo\2.png" style="zoom:50%;" />
 
-![](.\demo\3.png)
+<img src=".\demo\3.png" style="zoom:67%;" />
 
 在config.yaml中需要包含以下信息：
 
