@@ -127,7 +127,7 @@ def get_proxies_and_groups(controller_address, secret):
 
 def switch_proxy(interval, config_path, secret, controller_address, blacklist=None):
     if blacklist is None:
-        blacklist = ["最新网址", "剩余流量", "距离下次重置", "套餐到期", "自动选择", "故障转移", "DIRECT", "REJECT"]
+        blacklist = ["最新", "流量", "重置", "自动选择", "故障转移", "DIRECT", "REJECT"]
     print_highlight(f"已设置黑名单节点: {', '.join(blacklist)}")
     
     api_url = controller_address
@@ -209,8 +209,8 @@ def main():
     parser.add_argument('--secret', '-s', help='手动输入Clash API 密钥')
     parser.add_argument('--controller', '-a', default='127.0.0.1:9090', help='手动输入Clash控制器地址')
     parser.add_argument('--blacklist', '-b', nargs='+', 
-                       default=["最新网址", "剩余流量", "距离下次重置", "套餐到期", "自动选择", "故障转移", "DIRECT", "REJECT"], 
-                       help='要避开的代理节点名称列表（默认：最新网址 剩余流量 距离下次重置 套餐到期 自动选择 故障转移 DIRECT REJECT）')
+                       default=["最新", "流量", "重置", "自动选择", "故障转移", "DIRECT", "REJECT"], 
+                       help='要避开的代理节点名称列表（默认：最新 流量 重置 自动选择 故障转移 DIRECT REJECT）')
     
     args = parser.parse_args()
     

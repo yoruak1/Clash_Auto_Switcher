@@ -45,7 +45,7 @@ python clash_auto_switcher.py -a your_external-controller -s your_secret -i 60
   -i, --interval    代理切换之间的间隔（默认：60秒）
   -s, --secret      手动输入Clash API 密钥
   -a, --controller  手动输入Clash控制器地址
-  -b, --blacklist   要避开的代理节点名称列表
+  -b, --blacklist   要避开的代理节点名称列表（默认：最新 流量 重置 自动选择 故障转移 DIRECT REJECT）
 ```
 
 ### 配置文件示例
@@ -66,7 +66,7 @@ secret: your_secret
 
 ### 黑名单设置
 
-默认的黑名单包含以下节点名称：最新网址，剩余流量，距离下次重置，套餐到期，自动选择，故障转移，DIRECT，REJECT
+默认的黑名单包含以下节点名称：最新，流量，重置，自动选择，故障转移，DIRECT，REJECT
 
 可以通过 `-b` 参数自定义黑名单：
 ```bash
