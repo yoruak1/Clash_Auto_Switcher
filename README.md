@@ -2,7 +2,7 @@
 
 一个用于 Clash for Windows 的自动代理节点切换工具，可以按指定时间间隔自动切换代理节点，支持黑名单过滤。
 
-<img src=".\demo\1_1.png" style="zoom: 67%;" />
+<img src=".\assets\1_1.png" style="zoom: 67%;" />
 
 ## ✨ 功能特性
 
@@ -50,9 +50,9 @@ python clash_auto_switcher.py -a your_external-controller -s your_secret -i 60
 
 ### 配置文件示例
 
-<img src=".\demo\2.png" style="zoom:50%;" />
+<img src=".\assets\2.png" style="zoom:50%;" />
 
-<img src=".\demo\3.png" style="zoom:67%;" />
+<img src=".\assets\3.png" style="zoom:67%;" />
 
 在config.yaml中需要包含以下信息：
 
