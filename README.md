@@ -1,8 +1,8 @@
-# Clash_Auto_Switcher(Clash for Windows 代理节点自动切换器)
+# Clash_Auto_Switcher
 
 一个用于 Clash for Windows 的自动代理节点切换工具，支持定时切换和连接次数切换两种模式，支持随机切换和逻辑切换两种切换策略，支持访问目标黑名单和白名单两种模式。
 
-![](.\assets\clash1.png)
+<img src=".\assets\clash1.png"  />
 
 ## ✨ 功能特性
 
@@ -68,11 +68,11 @@ pip install -r requirements.txt
 
 3.连接次数阈值：1，即每次连接都切换一次代理节点
 
-![](.\assets\clash2.png)
+<img src=".\assets\clash2.png"  />
 
 这里我使用自己的登录爆破工具方便演示（bp也是一样的），发送9次请求，可以看到IP每次都是不一样的，代理节点轮换成功
 
-![](.\assets\clash3.png)
+<img src=".\assets\clash3.png"  />
 
 
 
