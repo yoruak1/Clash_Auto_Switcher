@@ -1,3 +1,4 @@
-colorama==0.4.6
-PyYAML==6.0.2
-Requests==2.32.3
+configparser~=7.0.0
+PyYAML~=6.0.2
+requests~=2.31.0
+PyQt6~=6.8.1
